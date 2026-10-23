@@ -1,5 +1,5 @@
 {
- "versao": "1.0.0.1",
- "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.1/GameVault-1.0.0.1.zip",
- "notas": "Primeira release beta: auto-update ativo, UI no padrao Arsenal, ativa\u00e7\u00e3o PLUS com valida\u00e7\u00e3o at\u00f4mica."
+ "versao": "1.0.0.2",
+ "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.2/GameVault-1.0.0.2.zip",
+ "notas": "Cooldown de cada jogo agora aparece sempre certo no app, atualizado quando abre. Mensagens de erro e sucesso mais faceis de entender."
 }
