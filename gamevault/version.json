@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.0.5",
-  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.5/GameVault-1.0.0.5.zip",
-  "notas": "Corrigido de vez o erro 'Unable to load library steamclient64.dll' que aparecia em alguns jogos: a ativacao agora copia todos os arquivos do pacote, inclusive as DLLs que ficam em outras pastas do jogo. O app ficou muito mais rapido para carregar a lista de jogos. Agora aparece uma mensagem clara de 'Jogo ativado com sucesso!' quando a ativacao termina, sem a tela piscar ou recarregar do nada."
+  "versao": "1.0.0.6",
+  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.6/GameVault-1.0.0.6.zip",
+  "notas": "Corrigido o problema em que a tela 'Biblioteca' ficava vazia e não havia como voltar para a lista de jogos, só reiniciando o aplicativo. Agora, quando o app abre por conta própria, o menu mostra 'Meu app' e qualquer outro endereço abre o próprio app. A Biblioteca também não fica mais em branco sem explicação."
 }
