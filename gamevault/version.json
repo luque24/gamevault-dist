@@ -1,5 +1,5 @@
 {
-  "versao": "1.0.0.6",
-  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.6/GameVault-1.0.0.6.zip",
-  "notas": "Corrigido o problema em que a tela 'Biblioteca' ficava vazia e não havia como voltar para a lista de jogos, só reiniciando o aplicativo. Agora, quando o app abre por conta própria, o menu mostra 'Meu app' e qualquer outro endereço abre o próprio app. A Biblioteca também não fica mais em branco sem explicação."
+  "versao": "1.0.0.7",
+  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.7/GameVault-1.0.0.7.zip",
+  "notas": "O aplicativo agora abre mais rápido e a lista de jogos aparece mais rápido. As capas dos jogos ficam guardadas no computador, então nas próximas aberturas elas aparecem na hora. Se o servidor estiver fora do ar, a lista de jogos continua aparecendo. E durante a ativação de um jogo o aplicativo não trava mais."
 }
