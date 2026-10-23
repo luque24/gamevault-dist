@@ -1,5 +1,40 @@
 {
-  "versao": "1.0.0.7",
-  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.7/GameVault-1.0.0.7.zip",
-  "notas": "O aplicativo agora abre mais rápido e a lista de jogos aparece mais rápido. As capas dos jogos ficam guardadas no computador, então nas próximas aberturas elas aparecem na hora. Se o servidor estiver fora do ar, a lista de jogos continua aparecendo. E durante a ativação de um jogo o aplicativo não trava mais."
+  "versao": "1.0.0.8",
+  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.8/GameVault-1.0.0.8.zip",
+  "notas": "O GameVault agora abre em cerca de 1 segundo e meio, mais de três vezes mais rápido. As próximas atualizações também ficam bem mais rápidas, porque só baixam o que mudou (poucos megas em vez do aplicativo inteiro). Nesta atualização o GameVault baixa os arquivos novos uma única vez, com uma tela mostrando o progresso. As telas de carregamento ganharam visual novo. E se uma atualização der problema, o GameVault volta sozinho para a versão anterior.",
+  "pacote": {
+    "formato": 1,
+    "versao": "1.0.0.8",
+    "partes": [
+      {
+        "nome": "base",
+        "id": "528ea243e8450558",
+        "arquivo": "GameVault-base-528ea243e8450558.zip",
+        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.8/GameVault-base-528ea243e8450558.zip",
+        "sha256": "db19548737355f1982c5019cef43a3af91d32a0de8a6a63f62b4a352b8e7c7ea",
+        "tamanho": 143126263
+      },
+      {
+        "nome": "runtime",
+        "id": "b54ebc0095c4089c",
+        "arquivo": "GameVault-runtime-b54ebc0095c4089c.zip",
+        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.8/GameVault-runtime-b54ebc0095c4089c.zip",
+        "sha256": "0de8d4bf5c87d1938eff0f3d66bca8682e2fa975349c83af59157c14d8e60faf",
+        "tamanho": 36118376
+      },
+      {
+        "nome": "app",
+        "id": "6a432833f5c71157",
+        "arquivo": "GameVault-app-6a432833f5c71157.zip",
+        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.8/GameVault-app-6a432833f5c71157.zip",
+        "sha256": "0bfca31850453ddb4d54249e970d3a8c87755d3ea44b339f8877d2fee2c5ee8a",
+        "tamanho": 2958376
+      }
+    ],
+    "lancador": {
+      "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.8/GameVault-lancador-c6814e15ae96.exe",
+      "sha256": "c6814e15ae966517d8e327d68e1fe427c8ccc55e18b710bcec9b5fe3a32c7ec9",
+      "tamanho": 150528
+    }
+  }
 }
