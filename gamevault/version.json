@@ -1,10 +1,10 @@
 {
-  "versao": "1.0.0.9",
-  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.9/GameVault-1.0.0.9.zip",
-  "notas": "Correção na ativação de jogos com proteção extra.\n\nJogos que usam a proteção Denuvo (como Echoes of Aincrad) agora aparecem marcados como indisponíveis no catálogo, com o motivo na tela. Antes o botão Ativar aparecia e só no clique o app avisava que não dava, o que parecia erro do aplicativo. Esses jogos seguem sem funcionar por aqui: a proteção exige uma autorização oficial ligada a uma conta que tem o jogo, e isso não depende do GameVault.\n\nTambém deixamos as capas mais resistentes. Quando a Steam fica instável e não responde o endereço da imagem, o app tenta de novo algumas vezes e não grava mais a capa que falhou (antes o jogo podia ficar sem capa para sempre).\n\nNada mais mudou: os jogos que já ativavam continuam iguais.",
+  "versao": "1.0.0.10",
+  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.10/GameVault-1.0.0.10.zip",
+  "notas": "Denuvo detectado de forma mais completa.\n\nAlguns jogos com Denuvo passavam pela checagem e só davam erro depois de instalar, com uma tela do próprio jogo dizendo que algo deu errado. Agora o app procura os sinais da proteção também nas DLLs do jogo (antes olhava só os executáveis principais) e pelo nome dos arquivos.\n\nNa prática: ao tentar ativar um desses jogos, o aviso aparece antes de baixar qualquer coisa, nada é instalado e a ativação de 24 horas não é gasta. A partir daí o card do jogo já vem marcado como Indisponível no catálogo, com o motivo. Se o jogo for reinstalado sem a proteção, o card volta a liberar sozinho.\n\nNada mais mudou.",
   "pacote": {
     "formato": 1,
-    "versao": "1.0.0.9",
+    "versao": "1.0.0.10",
     "partes": [
       {
         "nome": "base",
@@ -24,11 +24,11 @@
       },
       {
         "nome": "app",
-        "id": "724482abe7063691",
-        "arquivo": "GameVault-app-724482abe7063691.zip",
-        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.9/GameVault-app-724482abe7063691.zip",
-        "sha256": "e69f29e064ba0f66d9faba5ea79a1cefab223da5eed09457f10eafccb83a26cf",
-        "tamanho": 2959690
+        "id": "32ed90390128ead3",
+        "arquivo": "GameVault-app-32ed90390128ead3.zip",
+        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.10/GameVault-app-32ed90390128ead3.zip",
+        "sha256": "b2bb16ef5a10a07906cf289f018d3a79dd9e4417d8caa8dd7cf263613e525f33",
+        "tamanho": 2959476
       }
     ],
     "lancador": {
