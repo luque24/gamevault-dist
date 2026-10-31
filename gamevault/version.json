@@ -1,10 +1,10 @@
 {
-  "versao": "1.0.0.11",
-  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.11/GameVault-1.0.0.11.zip",
-  "notas": "App mais fluido e janela do jogo nova.\n\nO GameVault agora usa a placa de vídeo para desenhar a tela. Antes tudo era desenhado pelo processador, e por isso rolar a lista e passar o mouse pelos jogos engasgava. Se a placa de vídeo der problema no seu PC (tela preta, por exemplo), o app percebe e volta sozinho para o modo antigo.\n\nA lista também ficou mais leve: a busca não trava enquanto você digita e os cards não refazem a animação a cada letra.\n\nA janela que abre ao clicar num jogo foi refeita: capa grande no topo, vagas livres com barra, situação do jogo e botões no estilo do iPhone. Ela abre e fecha com animação suave, e a tecla Esc fecha. A capa, que antes não aparecia nessa janela, agora aparece. Jogo com proteção Denuvo mostra o motivo de estar indisponível.\n\nNada mudou na ativação dos jogos.",
+  "versao": "1.0.0.12",
+  "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.12/GameVault-1.0.0.12.zip",
+  "notas": "Jogos com proteção Denuvo agora ativam normalmente.\n\nAté agora o app barrava esses jogos antes de tentar qualquer coisa: o card já vinha marcado como indisponível e o clique em Ativar nem baixava os arquivos. O servidor de ativação já entrega o ticket desses jogos, então o bloqueio estava sobrando. Agora eles seguem o mesmo caminho dos outros: baixam o pacote, recebem o ticket e abrem.\n\nSe um jogo com Denuvo não estiver no servidor, o próprio servidor responde o motivo e nenhuma ativação é gasta.\n\nNada mais mudou: os jogos que já ativavam continuam iguais.",
   "pacote": {
     "formato": 1,
-    "versao": "1.0.0.11",
+    "versao": "1.0.0.12",
     "partes": [
       {
         "nome": "base",
@@ -24,11 +24,11 @@
       },
       {
         "nome": "app",
-        "id": "9d39bb40602193e3",
-        "arquivo": "GameVault-app-9d39bb40602193e3.zip",
-        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.11/GameVault-app-9d39bb40602193e3.zip",
-        "sha256": "d944a916b4a25e7f0cbe3cb5e4e61880610d76867ee48460f5a8e8e884e0d859",
-        "tamanho": 2988427
+        "id": "77a77954d8c2ea12",
+        "arquivo": "GameVault-app-77a77954d8c2ea12.zip",
+        "url": "https://github.com/luque24/gamevault-dist/releases/download/v1.0.0.12/GameVault-app-77a77954d8c2ea12.zip",
+        "sha256": "0563a59c76cd31a3067f7330d2e636e873af3f4eebad149671a8dfc87858467c",
+        "tamanho": 2987927
       }
     ],
     "lancador": {
